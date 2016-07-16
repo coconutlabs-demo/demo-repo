@@ -1,3 +1,7 @@
 language: ruby
 rvm:
   - 2.2
+notifications:
+  webhooks: 
+    - https://hooks.buildtracker.io/travis
+    - https://hooks-buildtracker.ngrok.io/travis
